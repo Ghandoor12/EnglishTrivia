@@ -1,0 +1,38 @@
+.btn {
+  width: 400px;
+  background-color: black !important;
+  color: white !important;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn .active {
+  background-color: white !important;
+}
+
+.btn:hover {
+  background-color: white !important;
+  color: black !important;
+  font-style: italic !important;
+}
+
+@keyframes animate-link {
+  from {
+    transform: translateX(px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 560px) {
+  .btn {
+    width: 300px;
+    background-color: black !important;
+    color: white !important;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}

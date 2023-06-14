@@ -1,0 +1,63 @@
+.myContainer {
+  /* border: 5px solid; */
+  position: absolute;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+}
+.progress {
+  height: 30px !important;
+  /* background-color: black; */
+}
+.progress-bg {
+  background-color: black !important;
+}
+.bg-success {
+  color: black !important;
+  background-color: black !important;
+}
+
+.summary {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+
+.summaryRank {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  border: 2px;
+  border-radius: 10px;
+  border-style: solid;
+}
+@media (max-width: 560px) {
+  .title {
+    font-size: 35px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+
+  .progress {
+    width: 300px;
+    left: 10%;
+    margin-left: 20% !important;
+  }
+
+  .summary {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: large;
+  }
+
+  .summaryRank {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
